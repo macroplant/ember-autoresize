@@ -44,7 +44,7 @@ Ember.TextArea.reopen(AutoResize, /** @scope Ember.TextArea.prototype */{
       if (isNone(value)) {
         value = '';
       }
-      return value + '@';
+      return value;
     }
   })
 
